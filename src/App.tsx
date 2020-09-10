@@ -3,13 +3,13 @@ import { ThemeProvider } from 'styled-components'
 
 import light from './styles/themes/light'
 import GlobalStyle from './styles/global'
-import Header from './components/Header'
+import Router from './Router'
 
 const App: React.FC = () => {
   return (
     <ThemeProvider theme={light}>
       <GlobalStyle />
-      <Header />
+      <Router />
     </ThemeProvider>
   )
 }
